@@ -5,7 +5,7 @@
 
 # Enquire (Enquire Within upon Everything)
 
-    Enquire 실패한 이유 !!
+    Enquire 실패한 이유 !!!
 
     1. 기존 데이터베이스에 대한 외부 링크가 허용 x
     2. 정보를 최신 상태로 유지하는 것에 대해 너무 많은 리소스가 들었음.
