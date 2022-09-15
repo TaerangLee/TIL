@@ -34,9 +34,9 @@
 
 ## Response
 
-    HTTP/1.1
+    HTTP/1.1  200 ok
+
     
-    200 OK
     Server: Apache/2.4.29 (Ubuntu)
     Content-Length: 61
     Connection: Keep-Alive
