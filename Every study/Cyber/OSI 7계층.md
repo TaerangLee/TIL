@@ -6,6 +6,9 @@
 ## OSI 7계층
 
 
+![OSI 7계층](https://t1.daumcdn.net/cfile/tistory/995EFF355B74179035)
+
+
     (1) <물리계층>
 
     1. 7계층 중 최하위 계층이다.
