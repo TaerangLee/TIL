@@ -56,6 +56,20 @@
 
 
 
+### `Same Origin Policy의 오리진
+
+    
+    오리진 : 프로토콜, 포트, 호스트로 구성이 됨.
+    * 모두 일치해야 동일한 오리진이라고 할 수 있음.
+
+
+![오리진](https://cdn.discordapp.com/attachments/956190154454876183/1022424599792726056/unknown.png)
+
+
+
+
+
+
 
 
 
