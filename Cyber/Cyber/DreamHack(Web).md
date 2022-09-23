@@ -77,12 +77,36 @@
 
 
 
-### `XSS 발생 종류와 설명`
+## `XSS 발생 종류와 설명`
 
 
  ![XSS](https://media.discordapp.net/attachments/956190154454876183/1022464035733635092/unknown.png?width=477&height=408)
 
 
+
+ ## `XSS 스크립트의 예시`
+
+
++ 쿠키 및 세션 탈취 공격 코드
+
+
+![쿠키/세션 탈취 공격 코드](https://cdn.discordapp.com/attachments/956190154454876183/1022466126434795570/unknown.png)
+
+
++ 페이지 변조 공격 코드/ 위치 이동 공격 코드
+
+
+![페이지 변조 공격/위치 이동 공격](https://cdn.discordapp.com/attachments/956190154454876183/1022466146139639828/unknown.png)
+
+
+
+### `Stored XSS`
+
+
+    Stored XSS : 서버의 데이터베이스 또는 파일 등의 형태로 저장된
+    악성 스크립트를 조회할 때 발생하는 XSS이다.
+
+    Ex) 게시물/댓글에 악성 스크립트를 포함하여 업로드 하는 방식임.
 
 
 
