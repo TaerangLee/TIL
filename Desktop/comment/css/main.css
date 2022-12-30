@@ -1,0 +1,96 @@
+@import url(./media.css);
+@import url(./style.css);
+
+@font-face {
+  font-family: "Pretendard";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+html, 
+body{
+    font-family: "Pretendard";
+    margin-top:12vh;
+    
+    
+    
+}
+
+
+.choose_center {
+ 
+  height: 9vh;
+  background-color: #292828;
+  display: flex;
+  position: fixed;
+  bottom: 25px;
+  margin: 0;
+  padding: 0;
+  top: -1px;
+  width: 200vw;
+  z-index: 1;
+}
+
+.move {
+  display: flex;
+  margin-left: 1vw;
+}
+
+.logo {
+  width: 7vw;
+  height: 5vh;
+  margin: 2.5vh 0 0 1vw;
+  cursor: pointer;
+  transition: 0.2s all linear;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+}
+
+.check_font {
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  margin-left: 4vw;
+}
+
+.font {
+  font-size: 1.1vw;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s all linear;
+}
+
+.font:hover {
+  transform: scale(1.05);
+}
+
+.daywebton {
+  margin: 0 3vw 0 3vw;
+}
+.board_list_wrap{
+    margin-top:14px;
+}
+
+.titleName::placeholder{
+    font-size: 15px;
+    font-family: "Pretendard";
+}
+
+.author::placeholder{
+      font-size: 15px;
+    font-family: "Pretendard";
+}
+
+.password::placeholder{
+    font-size: 15px;
+    font-family: "Pretendard";
+}
+
+.board_view_wrap{
+    margin-top:20px;
+}

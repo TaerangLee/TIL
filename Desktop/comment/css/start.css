@@ -1,0 +1,33 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(../images/EggTartHomebackground.png);
+    background-size: 216vh;
+}
+@font-face {
+    font-family: 'KOTRAHOPE';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.btn_box {
+    background-color: #EEB743;
+    position: absolute;
+    margin: 20% 0 0 4%;
+    padding: 10px;
+    border-radius: 20px;
+    /* opacity: 0.1; */
+    width: 470px;
+    height: 75px;
+    opacity: 0.6;
+}
+.btn_start {
+    position: absolute;
+    margin: 20% 0 0 5%;
+    font-family: 'KOTRAHOPE';
+    font-size: 80px;
+    color: white;
+    text-decoration: none;
+}

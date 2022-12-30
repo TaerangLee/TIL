@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>EggTart</title>
+
+    <!-- Open graph -->
+    <!--http://ogp.me/-->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="EggTart" />
+    <meta property="og:title" content="EggTart" />
+    <meta
+      property="og:description"
+      content="EggTart는 광주 소프트웨어 마이스터 고등학교 학생들의 친밀감 형성을 위해 만들어진 웹 커뮤니티 사이트 입니다."
+    />
+    <meta property="og:image" content="./images/EggTart_logo.png" />
+    <meta property="og:url" content="http://gsm.gen.hs.kr/main/main.php" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <!--iOS-->
+    <meta property="al:ios:app_name" content="EggTart" />
+    <!--Android-->
+    <meta property="al:android:app_name" content="EggTart" />
+    <meta property="al:web:url" content="http://gsm.gen.hs.kr/main/main.php" />
+
+    <!-- twitter Card -->
+    <!-- https://developer.twitter.com/en -->
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:site" content="EggTart" />
+    <meta property="twitter:title" content="EggTart" />
+    <meta
+      property="twitter:description"
+      content="EggTart는 광주 소프트웨어 마이스터 고등학교 학생들의 친밀감 형성을 위해 만들어진 웹 커뮤니티 사이트 입니다."
+    />
+    <meta property="twitter:image" content="./images/EggTart_logo" />
+    <meta property="twitter:url" content="http://gsm.gen.hs.kr/main/main.php" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <!-- Favicon -->
+
+    <!--Google Fonts - 나눔고딕-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--Google Material Icons-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+
+    <link rel="stylesheet" href="../css/main.css" />
+
+    <script defer src="../js/main.js"></script>
+  </head>
+  <body>
+    <header class="choose_center">
+      <div class="move">
+        <img class="logo" src="../images/WEBFLEX.png" alt="" />
+        <div class="check_font">
+          <span class="font">인기 웹툰 </span>
+          <span class="font daywebton">요일 웹툰 </span>
+          <span class="font">랜덤 웹툰</span>
+        </div>
+      </div>
+    </header>
+
+    <div class="board_wrap">
+      <div class="board_title">
+        <strong>공지사항</strong>
+        <p>공지사항을 빠르고 정확하게 안내해 드립니다.</p>
+      </div>
+      <div class="board_list_wrap">
+        <div class="board_write">
+          <div class="title">
+            <dl>
+              <dt>제목</dt>
+              <dd>
+                <input class="titleName" type="text" placeholder="제목 입력" />
+              </dd>
+            </dl>
+          </div>
+          <div class="info">
+            <dl>
+              <dt>글쓴이</dt>
+              <dd>
+                <input
+                  class="author border"
+                  type="text"
+                  placeholder="글쓴이 입력"
+                />
+              </dd>
+            </dl>
+            <dl>
+              <dt>비밀번호</dt>
+              <dd>
+                <input class="password border"type="text" placeholder="비밀번호 입력" ">
+              </dd>
+            </dl>
+          </div>
+          <div class="cont">
+            <textarea placeholder="입력하세요."></textarea>
+          </div>
+        </div>
+        <div class="bt_wrap">
+          <a href="./view.html" class="on">수정</a>
+          <a href="./veiw.html">취소</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
